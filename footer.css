@@ -1,0 +1,105 @@
+.footer {
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+footer{
+    background-color: rgb(68, 78, 88);
+    color: lightgrey;
+    position: absolute;
+    top: 228%;
+}
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box .h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 0px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    trasition: 0.35;
+}
+
+.left .content .social a span:hover {
+    background: #f12020;
+}
+.social i{
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    border-radius: 0%;
+    box-shadow: 1px 1px 2px 2px gray;
+    transition: all 0.3s linear;
+}
+.social a{
+    height: 100px;
+    width: 100px;
+    background-color: darkgray;
+    border-radius: 50px;
+    margin: 4px;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-facebook{
+    color: navy;
+}
+.fa-instagram{
+        /* color: #e84393; */
+        color: deeppink;
+}
+.fa-twitter{
+        color: rgb(28, 28, 202);
+}
+.fa-youtube{
+        color:red;
+}
+.fa-linkedin{
+       color: rgb(28, 28, 202); 
+}
+input[type="email"]{
+    width: 160px;
+    height: 3px;
+    padding: 12px;
+    border-radius: 5px black;
+    border: 1px solid black;
+    margin: 0px;
+}
+textarea{
+    border: 1px solid black;
+}
+
